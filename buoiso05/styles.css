@@ -1,0 +1,41 @@
+QWidget {
+    background-color: #ffffff;
+ }
+ QGridLayout {
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ QComboBox {
+    background-color: #ffffff;
+    height: 60px;
+    color: red;
+ }
+ 
+ QLineEdit {
+    background-color: aliceblue;
+    color: #618b38;
+    font-style: italic;
+    font-weight: bold;
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ 
+ QLabel {
+    background-color: #ffffff;
+    color: #618b38;
+ }
+ 
+ QPushButton {
+    background-color: #8b0000;
+    color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+
