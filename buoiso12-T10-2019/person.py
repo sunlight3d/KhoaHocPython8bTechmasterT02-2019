@@ -5,7 +5,8 @@ class Person:
         self.name = name
         self.age = age
         self.job = job
-    """methods"""
+
+    """instance method = created after constructor"""
     def walk(self):
         print("I am walking")
     def __str__(self):
@@ -13,3 +14,6 @@ class Person:
         return "Name = "+self.name+"\n"\
                 "Age = "+str(self.age)+"\n"\
                 "Job = "+self.job
+    @staticmethod
+    def do_something():
+        print("This is a static method")
